@@ -37,12 +37,9 @@ The “CASEROOT” directory you specified in the script. e.g. currently it is �
 For your convenience, I also include a parallel script for run the default CESM2.1.1 under /glade/p/cesm/pcwg/PWS2019_DATA/day3/morning/ as cesm211_standard_PMWG-ETEST_f19_g17.sh
 Note: both scripts are set to run for only one day with 3-hourly output. If you use it for your research, you need to adjust this to your own need accordingly.
 
-
-
-
 # How to use AMWG package
 
-============================
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Step-by-step instruction of using AMWG package
 Yi-Hsuan Chen
 08/05/2019
@@ -50,7 +47,7 @@ Xianglei Huang
 08/06/2019
 based on
 Script of running AMWG package: amwg-cesm211-emis_standard.csh or diag140804.csh (provided by AMWG)
-============================
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 ***************************
 model-to-model comparison, 
@@ -67,7 +64,7 @@ Note: you can type "module list" on command line to see all loaded modules.
 Things you need to be aware in amwg-cesm211-emis_standard_PMWG.csh
 1. set working director; replace "USER = hxl" with your own username
 
-	# set $wrkdir that the AMWG plots will be saved there
+        %% set $wrkdir that the AMWG plots will be saved there
 	set USER = hxl
 	set scratchdir = /glade/scratch/$USER/
 	set wrkdir = $scratchdir/y01-amwg-$temp/
@@ -131,7 +128,7 @@ Note: 5 years are indeed not enough to give robust signficance
 
 7. (optional: need this if you run on other machines) Set amwg diagnostic package root location 
 
-	# CSIL machines (geyser, caldeira, ...)
+	%% CSIL machines (geyser, caldeira, ...)
 	setenv DIAG_HOME /glade/p/cesm/amwg/amwg_diagnostics
 
 8. Change other settings in the script as necessary
