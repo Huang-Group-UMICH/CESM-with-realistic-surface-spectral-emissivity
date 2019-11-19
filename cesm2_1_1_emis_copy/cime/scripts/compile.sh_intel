@@ -1,7 +1,0 @@
-
-./create_newcase --case ../../../cases/case01 --compset FC2000climo --res f19_g17 --machine flux --walltime 10:00:00 -q xianglei_flux --run-unsupported
-cd ../../../cases/case01 
-./case.setup 
-ln -s /scratch/climate_flux/xiuchen/csmdata/emis/surface_emissivity_1.9x2.5_RRTMG_53deg.nc ../../case01/run/surface_emissivity_RRTMG_53deg.nc
-./case.build 
-./case.submit

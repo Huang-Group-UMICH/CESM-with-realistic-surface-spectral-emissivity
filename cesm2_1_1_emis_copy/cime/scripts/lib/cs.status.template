@@ -1,3 +1,0 @@
-#! /bin/bash
-
-<PATH>/cs.status "$@" <TESTROOT>/*.<TESTID>/TestStatus

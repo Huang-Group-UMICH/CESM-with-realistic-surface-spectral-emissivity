@@ -1,2 +1,0 @@
-./xmlchange OCN_TRANSIENT=1850-2000
-./xmlchange RUN_STARTDATE=1990-01-01
